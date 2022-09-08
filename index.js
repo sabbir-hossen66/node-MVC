@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded())
 
-app.use('/user', require('./Router/userRouter'))
+// app.use('/user', require('./Router/userRouter'))
 
 
 app.get('/', (req, res) => {
